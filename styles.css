@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #2f4a3a;
+}
+
+.scene {
+  position: relative;
+  width: 100%;
+}
+
+.scene__background {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.glyph {
+  position: absolute;
+  width: 8%;
+  height: auto;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  box-shadow: 0 0 14px 6px rgba(255, 207, 95, 1);
+}
+
+.glyph--left {
+  top: 50.7%;
+  left: 40.7%;
+}
+
+.glyph--center {
+  top: 50.7%;
+  left: 50%;
+}
+
+.glyph--right {
+  top: 50.7%;
+  left: 59.5%;
+}
